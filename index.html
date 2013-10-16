@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<link rel="stylesheet" type="text/css" href="asset/css/canvas.css">
+</header>
+<body>
+	<h1>
+		Canvas Sandbox <span id="author">by Samuel Chien</span>
+	</h1>
+	<div id="main">
+		
+	<div id="canvas_container">
+		<canvas id="myCanvas" class="canvasStyle" width="1000" height="370">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+	</div>
+	
+	<div id="toolbar">
+		<button id="colorBtn">Style</button>
+		<button id="rectangleBtn">Rectangle</button>
+		<button id="triangleBtn">Triangle</button>
+		<button id="lineBtn">Line</button>
+		<button id="selectBtn">Select</button>
+		<button id="clearCanvas">Clear Canvas</button>
+	</div>
+	<div id="selectedToolbar">
+		<button id="deleteBtn">Delete</button>
+		<button id="copyBtn">Copy&Paste</button>
+	</div>
+</div>
+<div id="colorChooser">
+	<div id="styleSwitchDiv">
+		<select id="styleSwitch">
+		  <option>Fill Color</option>
+		  <option>Outline Color</option>
+		  <option>Outline Width</option>
+		</select>
+	</div>
+	<div id="fillColor">
+		<div id="colorDiv">
+		</div>
+		<table id="colorTable" class="colorTable">
+			<tr>
+				<td>
+					<input type="range" id="slider1" value="0">
+				</td>
+				<td>
+					<input type="range" id="slider2" value="0">
+				</td>
+				<td>
+					<input type="range" id="slider3" value="0">
+				</td>
+			</tr>
+			<tr>
+				<td class="sliderCell">
+					<span id="sliderValue1">00</span>
+				</td>
+				<td class="sliderCell">
+					<span id="sliderValue2">00</span>
+				</td>
+				<td class="sliderCell">
+					<span id="sliderValue3">00</span>
+				</td>
+			</tr>
+		</table>
+		<input id="colorCodeBox" type="text" value="#000000">
+		<button id="submitBtn">Submit</button>
+	</div>
+	<div id="outlineColor">
+		<div id="outlineColorDiv">
+		</div>
+		<table class="colorTable">
+			<tr>
+				<td>
+					<input type="range" id="outlineSlider1" value="0">
+				</td>
+				<td>
+					<input type="range" id="outlineSlider2" value="0">
+				</td>
+				<td>
+					<input type="range" id="outlineSlider3" value="0">
+				</td>
+			</tr>
+			<tr>
+				<td class="sliderCell">
+					<span id="outlineSliderValue1">00</span>
+				</td>
+				<td class="sliderCell">
+					<span id="outlineSliderValue2">00</span>
+				</td>
+				<td class="sliderCell">
+					<span id="outlineSliderValue3">00</span>
+				</td>
+			</tr>
+		</table>
+		<input id="outlineColorCodeBox" type="text" value="#000000">
+		<button id="outlineSubmitBtn">Submit</button>
+	</div>
+	<div id="outlineWidth">
+		<canvas id="outlineWidthCanvas" class="canvasStyle" width="400" height="300">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		<div id="widthSliderDiv">
+			Size: <input type="range" id="widthSlider" value="1"><span id="widthSizeIndicator">1</span>
+		</div>
+		<button id="widthSubmitBtn">Submit</button>
+	</div>
+</div>
+	<script src="asset/js/jquery.min.js"></script>
+	<script src="asset/js/jCanvas.min.js"></script>
+	<script src="asset/js/canvas.js"></script>
+</body>
+</html>
+

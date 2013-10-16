@@ -1,0 +1,144 @@
+body
+{
+	background-color:#e4e0da;
+}
+h1 {
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin: 0;
+	color: #aaa;
+	font-size: 32px;
+}
+button{
+	border: 1px solid #aaa;
+	border-radius: 15px;
+}
+.colorTable
+{
+	float:left;
+	clear:left;
+}
+.sliderCell
+{
+	text-align: center;
+}
+.canvasStyle
+{
+	background-color:#ffffff;
+	border:1px solid #c3c3c3;
+}
+#author
+{
+	font-size: 12px;
+}
+#styleSwitch{
+	background-color: #aaa;
+}
+#canvas_container 
+{
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    height: 370px;
+    margin: 20px 20px;
+    overflow: hidden;
+    width: 1000px;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); /* this fixes the overflow:hidden in Chrome/Opera */
+}
+#myCanvas {
+    height: 370px;
+    width: 1000px;
+}
+
+#main
+{
+	float:left;
+}
+#toolbar
+{
+	float:left; 
+	clear:left;
+}
+#selectedToolbar
+{
+	float:left;
+	clear:left;
+	display:none;
+}
+#colorChooser
+{
+	display:none;
+}
+#styleSwitchDiv
+{
+	padding-top:25px;
+	padding-bottom:25px; 
+	float:left;
+	clear:left;
+}
+#fillColor
+{
+	float:left;
+	clear:left;
+}
+#colorDiv
+{
+	background-color:#000000;
+	height:125px;
+	width:400px; 
+	float:left;
+}
+#colorCodeBox
+{
+	float:left;
+	clear:left;
+}
+#submitBtn
+{
+	float:left;
+	clear:left;
+}
+#outlineColor
+{
+	float:left;
+	clear:left;
+	display:none;
+}
+#outlineColorDiv
+{
+	background-color:#000000;
+	height:125px;
+	width:400px; 
+	float:left;
+}
+#outlineColorCodeBox
+{
+	float:left;
+	clear:left;
+}
+#outlineSubmitBtn
+{
+	float:left;
+	clear:left;
+}
+#outlineWidth
+{
+	float:left;
+	clear:left;
+	display:none;
+}
+#outlineWidthCanvas
+{
+	float:left;
+}
+#widthSliderDiv
+{
+	float:left;
+	clear:left;
+}
+#widthSubmitBtn
+{
+	float:left;
+	clear:left;
+}
